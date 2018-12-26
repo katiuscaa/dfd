@@ -1,0 +1,178 @@
+#chithercomUI2 {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+    height: 50px!important;
+    background-color: rgba(20,20,20, 0.3);
+    position: fixed;
+    top: 0;
+    left: 280px; 
+    right: 280px;
+    z-index: 9999999;
+    color: #dddddd!important;
+    font-size: 18px!important;
+    text-align: left!important;
+    line-height: 24px!important;
+    box-sizing: border-box;
+}
+#chithercomUI2 .chv2_logo {
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAAAyCAYAAAC+jCIaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5M0VFQUIxN0M5MTZFNjExOTZFRTg0QjYxMUJDNjg1QiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4OTYxM0NFQjE2Q0ExMUU2OEUxQUU5OTQ4QURBQzA4OSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4OTYxM0NFQTE2Q0ExMUU2OEUxQUU5OTQ4QURBQzA4OSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5NkVFQUIxN0M5MTZFNjExOTZFRTg0QjYxMUJDNjg1QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5M0VFQUIxN0M5MTZFNjExOTZFRTg0QjYxMUJDNjg1QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PtNq08MAAAOESURBVHja7JuNjZtAEIW5KA1sC5sSuBJICU4JUIJTgl2CXUJcgq+EUMJtCaEEDiSQNpPZmR1Y3yXKe9JKh9k/Hh+zP3BP4zhWEFRaTwALAlgQwIIAFlyAABYEsCCABUEACwJYEMCCIIAFASwIYEFQKX2STs7QMamd0n38Xe1yzpPfX0nZCzl/JOep1t+PY558op02qssL7XBlR6HPXsg3e3RIeGhJkt8V6Qvt+3xcK/X/Yvp+IO1z11ZJQemzAUI3pR9TaphzNZ7RP9Qs6TalbxvKW/ye89yZfO2Svk7pRWiHyif+lsrkRyyie+IiIVmHKZ02lMv1ewVQq8srAKXAsZQzg3VCVNqlY85TvtHvU2bdF0PkqZXRqEjE8osxkK4wL4im1CWGpaqw326JiLlDs88ERBsK1aiVAxZnSD+l58XElJEldY7aonOFLjoXHtB2XP/T0hdN12VuZXrKN/jdMPV2wj05ZMLhM+bOu8GinRmWyWCPACWq3wiWxe+aafMawd0r+aU+1Qo8bg9Ynqn8vFwspA9TVln9pqDQaH4zTrqD0JdQMmJxhV+MRo1Raj/oJl+iPry+Q9mWmSeFTL8sfjulDQ0GL7RFwbLcd3UfyzNhGUOg/iBxum0AS/PbMfmlYyccBwKie2TEqpSOQnm6bVxYDA/O7wxDYc+cLwYWtG0S3/2lfaMRqVfAGkpN3ktMSP8nBSYydTsivXvn/CHqa00i4UCuY1fECkxHnNHoeA/o+kE3PN6L+vLgsjdl+6Ck35Y5lJY/CIuMnjm3K2L1iRUPlNbLDrCsfgcFJK/MoXL70CfA9FvB4lYlLYZEFSw6ZOS+97P6TfM2ynGfMXEPQmQsBhYX2ufK7pFZTYV3iVRXJWrNHv5ctiaOO/wODEhtBGQjRCyXGQWliOVKgrVO7FZj7lXGZxT/sOIN0jHzIdIiyTEC5UT8s/h9Y2722t+LArxPRKX+vcCaCf6OIGQSveE1GQ4bIaJZ/T5n5rsq2wUDszKsyGqwKFhr57HjbodLilql/L5mbmdoAA6JiNsLq0q/F6xZ0uetkG11qL0stvi9fv0wKPdOeyWzBSxXAqz1AjpywQOAy1odxp+hxBGpE1ZiuX6v32udmWj2nLg/0h5X6u/s94X49y/oIQJYEMCCABYEsAAWBLAggAUBLAgCWBDAggAWBAEsCGBBAAuCiulNgAEAHwAKxiW+9PgAAAAASUVORK5CYII=');
+}
+#chithercomUI2 .chv2_logo_free {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAAAyCAYAAAC+jCIaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo5M0VFQUIxN0M5MTZFNjExOTZFRTg0QjYxMUJDNjg1QiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4MjZCRjU4RDFGOTgxMUU2QTU4NTk5QUQ0RDgwNzlBOCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4MjZCRjU4QzFGOTgxMUU2QTU4NTk5QUQ0RDgwNzlBOCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpERTIwMDM5Rjk3MUZFNjExOUQ5Rjk3OTAyRTFGRTcyMCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5M0VFQUIxN0M5MTZFNjExOTZFRTg0QjYxMUJDNjg1QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PlgpdkgAAALJSURBVHja7JzxkeIgFIejYwO2wJXglZAtYbeEWIJXgpagJWxK0BLOEkwLqeAmhzM4w72FBKKB7Nz3zbx/BAThx3sPknHRdV0B8GqWTAEgLEBYgLAAEBYgLEBYAAgLEBYgLACEBQgLEBZAEmHd33xwWKXt3P1LZcqU+Pwm2h5F+U6USx6f77owlKefyvou1dOPq23XM2bVU+8+R+9y/v4XVhF119o+tZWOsg179AulsVrbBx7Lz9kjKujnXdveW/pncdPWDdhOW2Gsr/7N1FVWfWmx/YW3GSGsPV7pKXbG40+NMmt1M33O2mOp3IP8RjTa9BYvto6yKvFY9sZbzlZYrgm5avtpJtE3ka/kYPV1EWVbq6yZoG/7+xdmLEOcTG4lc9TUHDP1GyQsqfpW25sRF/i5jhTWRQh5SMyP+h9mbWSf5Yv7C2ozJCxlTHqPFt0EnaJTUnsEoebosZRHrTHJZGdZlWmRj9YYbgnaVo68tEnwO2cTRVaRwmoJgUEbyedRcnjJJsdExD7SIQSOD1OhC1wKLx/qJV33ZW1AhBnT32CbFWueJDxNeWoue7xktnw41mOt0UkvjcMzbTMt7iHwaiSLsBqHsNaRE20fSU+Zfqd9F/Vj4ra1I0RN7RFbx7z/yrnDlgGDdp14wM/lSWHJO6IhMbeODasi+o3tL6jNMmDQV4ewCIn9k96KRZ76Oetpbg4gJMeqHbvhbE3WPXnkWWL/Qk8dDhuHpyyLTJejY4VVGFH9NqeRc84fkICjOFqHbKKrY5FTXGkUiQX9lLCyJ4LfkFqEw02icCiT+JBNIO+kQjbPYJvQ64ZDwY37sx4khdc6OE7xWXKtmHustyLuOSFJfPqwNJtwGCOsx+syWzFpLYILOh1uEuSiviQ++du/C/6DFHJ7LACEBQgLEBYAwgKEBQgLAGEBwgKEBYCwAGEBwgLo5a8AAwCTLhdsLUxn1gAAAABJRU5ErkJggg==')!important;
+}
+#chithercomUI2 a { 
+    color: #66e48c!important; 
+    text-decoration: none!important; 
+}
+#chithercomUI2 br { 
+    display: block!important;  
+    height: 0!important;
+    margin: 0px 0!important; 
+}
+#chithercomUI2 .small {
+    font-size: 12px!important;
+    color: #cccccc;
+}
+#chv2_main-container {
+    height: 50px;
+    width: calc(100% - 170px);
+    box-sizing: content-box!important;
+    display: inline-block;
+    vertical-align: top;
+}
+.chv2_signletext {
+    text-align: center;
+    margin-top: 13px!important;
+}
+#chithercomUI2 .chv2_expire {
+    width: 33%;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+#chithercomUI2 .chv2_expire p {
+    line-height: 20px;
+    margin-top: 6px;
+}
+#chithercomUI2 .chv2_expire p b {
+    font-size: 20px;
+}
+#chithercomUI2 .chv2_expire_pkgexp p {
+    margin-top: 9px;
+    display: block;
+    background-color: rgba(255, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 6px;
+    font-size: 18px;
+    
+}
+#chithercomUI2 .chv2_active {
+    text-align: center;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+#chithercomUI2 .chv2_active_botsnb {
+    width: 30%;
+}
+#chithercomUI2 .chv2_active_expire {
+    width: 25%;
+}
+
+#chithercomUI2 .chv2_active_followcmd,  
+#chithercomUI2 .chv2_active_speedcmd, 
+#chithercomUI2 .chv2_active_randomcmd {
+    width: 15%;
+}
+
+#chithercomUI2 .chv2_active p {
+    background-color: rgba(0,0,0, 0.8);
+    border-radius: 4px;
+    display: block;
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 0;
+    font-size: 17px;
+    line-height: 16px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    position: relative;
+}
+#chithercomUI2 .chv2_active p .chv2_small {
+    font-size: 12px;
+}
+
+#chithercomUI2 #chv2_bot_load {
+    position: relative;
+    bottom: -2px;
+    left: 0px;
+    width: 0%;
+    height: 2px;
+    background-color: #00ff00;
+    display: block;
+    border-radius: 4px;
+    -webkit-transition: width 2s;
+    -moz-transition: width 2s;
+    -o-transition: width 2s;
+    transition: width 2s;
+}
+
+#chithercomUI2 #chv2_message_container {
+    height: 22px;
+    position: relative;
+    bottom: 0;
+    color: #dddddd;
+    font-size: 14px;
+    text-align: center;
+    background-color: rgba(20,20,20, 0.8);
+    border-radius: 4px;
+    display: none;
+}
+#chithercomUI2 #chv2_message_container p {
+    margin-top: -6px;
+}
+
+#cellsh-ads {
+    width: 728px;
+    height: 90px;
+    
+    z-index: 9999999;
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1260px) { 
+    
+    #chithercomUI2 {
+        left: 0!important;
+        rigth: 0!important;
+        width: 100%;
+        background-color: rgba(0,0,0, 0.8);
+    }
+    
+}
+@media screen and (min-width: 1400px) { 
+    #chithercomUI2 {
+        margin-left: auto;
+        margin-right: auto;
+        width: 850px;
+    }
+}
